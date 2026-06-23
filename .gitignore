@@ -1,0 +1,59 @@
+## .NET / Visual Studio
+bin/
+obj/
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.userprefs
+.vscode/
+
+## Build outputs
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+## NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## Sensitive config files — use appsettings.Example.json as template
+appsettings.json
+appsettings.Development.json
+appsettings.Production.json
+
+## Word/Office belgeler (raporlar, roadmap — repoya dahil edilmez)
+*.docx
+*.xlsx
+*.pptx
+
+## Claude proje talimatları (IDE aracına özel, repoya ait değil)
+CLAUDE.md
+.claude/
+
+## OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+## Rider
+.idea/
+
+## Test results
+TestResults/
+coverage/
+*.coveragexml
